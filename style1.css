@@ -6,48 +6,47 @@ body{
 }
 
 .nav {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 55px;
-  width: 100%;
-  background-color: #4d4d4d;
-  position: relative;
-}
-.nav > .nav-header {
-  display: inline;
-}
-.nav > .nav-header > .nav-title {
-  margin-top: -47px;
-  margin-left: 40px;
-  font-size: 22px;
-  color: #fff;
-  padding: 10px 10px 10px 10px;
-}
-.nav-img>img{
-  width: 40px;
-  height: 40px;
-  margin-top: 7px;
-  margin-left: 5px;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    height: 55px;
+    width: 100%;
+    background-color: #4d4d4d;
+    position: relative;
+  }
+  .nav > .nav-header {
+    display: inline;
+  }
+  .nav > .nav-header > .nav-title {
+    margin-top: -47px;
+    margin-left: 40px;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  .nav-img>img{
+    width: 40px;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 5px;
+  }  
 .nav > .nav-btn {
-  display: none;
-}
-.nav > .nav-links {
-  display: inline-block;
-  margin-left: 900px;
-  font-size: 18px;
-}
-.nav > .nav-links > a {
-  margin-top: 100px;
-  padding: 17px 10px 17px 10px;
-  text-decoration: none;
-  color: #efefef;
-}
-.nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-.nav > #nav-check {
-  display: none;
-}
+    display: none;
+  }
+  .nav > .nav-links {
+    float: right;
+    margin-top: -35px;
+    font-size: 18px;
+  }
+  .nav > .nav-links > a {
+    padding: 20px 10px 20px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > #nav-check {
+    display: none;
+  }
 
 .welcome{
   font-family: 'Poppins';
@@ -64,7 +63,6 @@ body{
     height: 300px;
     width: 370;
 }
-
 .logo_mpk{
     margin-left: -100px;
     height: 310px;
@@ -222,7 +220,7 @@ body{
     width:40px;
     height:40px;
     line-height:40px;
-    margin-left:6px;
+    margin-left:10px;
     margin-right:0;
     border-radius:100%;
     background-color:#33353d
@@ -268,7 +266,7 @@ body{
     width:44px;
     height:44px;
     text-align:center;
-    margin-right:8px;
+    margin-right:50px;
     border-radius:100%;
     -webkit-transition:all .2s linear;
     -o-transition:all .2s linear;
@@ -303,7 +301,54 @@ body{
   {
     background-color:#f16198
   }
-  
+  @media (max-width: 1024px) {
+    .welcome{
+      font-size: 40px;
+      margin-top: 10px;
+    }
+    .logo_mansel{
+      height: 200px;
+      width: 330px;
+      margin-left: 200px;
+      margin-top: -20px;
+    }
+    .logo_mpk{
+      height: 200px;
+      width: 200px;
+      margin-left: 10px;
+    }
+    .cukv{
+      font-size: small;
+      height: 240px;
+      width: 350px;
+      margin-left: 70px;
+    }
+    .cukm{
+      font-size: small;
+      height: 240px;
+      margin-left: 80px;
+      width: 380px;
+    }
+    .btn-1, .btn-2, .btn-3, .btn-4{
+      font-size: 15px;
+    }
+    .btn-1{
+      margin-left: 370px;
+      padding: 20px 95px;
+    }
+    .btn-2{
+      margin-left: 370px;
+      padding: 20px 83px;
+    }
+    .btn-3{
+      margin-left: 370px;
+      padding: 20px 68px;
+    }
+    .btn-4{
+      margin-left: 370px;
+      padding: 20px 40px;
+    }
+  }
   @media (max-width:991px)
   {
     .site-footer [class^=col-]
@@ -327,17 +372,17 @@ body{
       text-align:center
     }
   }
-@media (max-width:600px) {
+@media (max-width:688px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
-      right: 0px;
+      right: -25px;
       top: 0px;
     }
     .nav > .nav-btn > label {
       display: inline-block;
       width: 50px;
-      height: 50px;
+      height: 30px;
       padding: 13px;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
@@ -357,7 +402,7 @@ body{
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
-      top: 50px;
+      top: 90px;
       left: 0px;
       z-index: 1;
     }
@@ -372,92 +417,143 @@ body{
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
-  }
-  @media screen and (max-width:428px){
     .welcome{
-      font-size: 45px;
+      font-size: 30px;
       margin-top: 5px;
     }
     .logo_mansel{
       height: 160px;
-      width: 260px;
-      margin-left: -10px;
+      width: 270px;
+      margin-left: 100px;
     }
     .logo_mpk{
       height: 160px;
       width: 160px;
+      margin-left: -20px;
+    }
+    .cukv{
+      font-size: 12px;
+      height: 235px;
+      width: 230px;
+      margin-left: 40px;
+    }
+    .cukm{
+      font-size: 12px;
+      height: 235px;
+      width: 290px;
+      margin-left: 50px;
+    }
+    .btn-1{
+      margin-left: 210px;
+      padding: 20px 95px;
+    }
+    .btn-2{
+      margin-left: 210px;
+      padding: 20px 83px;
+    }
+    .btn-3{
+      margin-left: 210px;
+      padding: 20px 68px;
+    }
+    .btn-4{
+      margin-left: 210px;
+      padding: 20px 40px;
+    }
+    .site-footer{
+      padding: 20px 0 30px 0;
+    }
+  }
+  @media screen and (max-width:428px){
+    .nav-header>.nav-title{
+      display: none;
+    }
+    .welcome{
+      font-size: 30px;
+      margin-top: 5px;
+    }
+    .logo_mansel{
+      height: 140px;
+      width: 240px;
+      margin-left: 10px;
+    }
+    .logo_mpk{
+      height: 140px;
+      width: 140px;
       margin-left: -25px;
     }
     .cukv{
-      font-size: small;
+      font-size: medium;
       width: 350px;
       height: 180px;
       padding: 15px;
-      margin-left: 40px;
-      margin-top: -15px;
+      margin-left: 15px;
+      margin-top: 5px;
     }
     .cukm{
-      font-size: small;
-      margin-top: 175px;
-      margin-left: -350px;
+      font-size: medium;
+      margin-top: 225px;
+      margin-left: -380px;
       width: 350px;
-      height: 370px;
+      height: 350px;
       padding: 15px;
     }
     .btn-1, .btn-2, .btn-3, .btn-4{
-      font-size: 20px;        
-      margin-top: 5px;
-        
+      font-size: 20px;              
     }
     .btn-1{
-      padding: 20px 120px 20px 130px;
-      margin-left: 70px;
+      padding: 15px 112px 15px 112px;      
+      margin-left: 85px;
     }
     .btn-2{        
-      padding: 20px 110px 20px 105px;
-      margin-left: 70px;
+      padding: 15px 96px 15px 96px;
+      margin-bottom: 190px;
+      margin-left: 85px;
     }
     .btn-3{
-      padding: 20px 82.5px 20px 90px;
-      margin-left: 70px;
+      padding: 15px 75px 15px 75px;
+      margin-left: 85px;
+      margin-top: 5px;
     }
     .btn-4{
-      padding: 20px 50px 20px 50px;
-      margin-left: 70px;        
+      padding: 15px 40px 15px 40px;
+      margin-left: 85px;        
+      margin-top: 5px;
     }
     .site-footer{
-      margin-top: -15px;
+    padding:30px 0 15px;
+    font-size:15px;
+    margin-top: -10px;
     }
   }
   @media screen and (max-width:414px){
     .welcome{
-      font-size: 15px;
+      font-size: 25px;
       margin-top: 5px;
     }
     .logo_mansel{
-      height: 160px;
-      width: 240px;
-      margin-left: -65px;
+      height: 130px;
+      width: 210px;
+      margin-left: 10px;
     }
     .logo_mpk{
-      height: 160px;
-      width: 160px;
+      height: 130px;
+      width: 130px;
       margin-left: -10px;
     }
     .cukv{
       font-size: small;
-      width: 350px;
-      height: 180px;
+      width: 330px;
+      height: 130px;
       padding: 15px;
-      margin-left: 25px;
-      margin-top: -15px;
+      margin-left: 20px;
+      margin-top: 5px;
     }
     .cukm{
       font-size: small;
       margin-top: 190px;
-      margin-left: -350px;
-      width: 350px;
-      height: 370px;
+      margin-left: -363px;
+      width: 330px;
+      height: 260px;
       padding: 15px;
     }
     .btn-1, .btn-2, .btn-3, .btn-4{
@@ -482,76 +578,144 @@ body{
       margin-left: 90px;        
     }
   }
-  @media screen and (max-width:390px){
+  @media screen and (max-width:412px){
+    .logo_mansel{
+      height: 120px;
+      margin-left: 20px;
+    }
+    .logo_mpk{
+      height: 120px;
+      width: 120px;
+    }
+  }
+  @media screen and (max-width:393px){
     .welcome{
         margin-top: 5px;
-        font-size: 30px;
+        font-size: 25px;
     }
     .logo_mansel{
         margin-left: -10px;
-        height: 130px;
+        height: 120px;
         width: 210px;
     }
     .logo_mpk{
         margin-left: -2px;
-        height: 130px;
-        width: 130px;
+        height: 120px;
+        width: 120px;
     }
     .cukv{
         font-size: small;
         width: 300px;
-        height: 200px;
+        height: 130px;
         padding: 15px;
-        margin-left: 30px;
+        margin-left: 25px;
     }
     .cukm{
         font-size: small;
-        margin-top: 225px;
-        margin-left: -300px;
+        margin-top: 180px;
+        margin-left: -330px;
         width: 300px;
-        height: 370px;
+        height: 280px;
         padding: 15px;
     }
     .btn-1, .btn-2, .btn-3, .btn-4{
         font-size: 15px;        
-        margin-top: 30px;
+        margin-top: 10px;
         
     }
     .btn-1{
         padding: 20px 104px 20px 104px;
-        margin-left: 80px;
+        margin-left: 70px;
     }
     .btn-2{        
         padding: 20px 90px 20px 90px;
-        margin-left: 80px;
+        margin-left: 70px;
     }
     .btn-3{
         padding: 20px 76px 20px 76px;
-        margin-left: 80px;
+        margin-left: 70px;
     }
     .btn-4{
         padding: 20px 50px 20px 50px;
-        margin-left: 80px;        
+        margin-left: 70px;        
     }
+}
+@media screen and (max-width:375px){
+  .welcome{
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .logo_mansel{
+    height: 100px;
+    width: 180px;
+    margin-left: 18px;
+  }
+  .logo_mpk{
+    height: 100px;
+    width: 100px;
+  }
+  .cukv{
+    font-size: small;
+    width: 280px;
+    height: 140px;
+    padding: 15px;
+    margin-left: 23px;
+}
+.cukm{
+    font-size: small;
+    margin-top: 190px;
+    margin-left: -310px;
+    width: 280px;
+    height: 280px;
+    padding: 15px;
+}
+.btn-1, .btn-2, .btn-3, .btn-4{
+    font-size: 15px;        
+    margin-top: 10px;
+    
+}
+.btn-1{
+    padding: 20px 104px 20px 104px;
+    margin-left: 60px;
+}
+.btn-2{        
+    padding: 20px 90px 20px 90px;
+    margin-left: 60px;
+}
+.btn-3{
+    padding: 20px 76px 20px 76px;
+    margin-left: 60px;
+}
+.btn-4{
+    padding: 20px 50px 20px 50px;
+    margin-left: 60px;        
+}
 }
 @media screen and (max-width:360px){
   .welcome{
-    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 5px;
   }
   .logo_mansel{
-    margin-left: -10px;
-    width: 260px;
+    margin-left: -3px;
+    width: 190px;
+    height: 110px;
+  }
+  .logo_mpk{
+    width: 85px;
+    height: 85px;
   }
   .cukv{
-    margin-left: -10px;
+    margin-left: 17px;
   }
   .cukm{
-    height: 385px   ;
+    height: 280px;
   }
   .btn-1, .btn-2, .btn-3, .btn-4{
-    margin-left: 60px;
+    margin-left: 55px;
   }
+
   .site-footer{
-    margin-top: -15px;
+    margin-top: -7px;
   }
 }

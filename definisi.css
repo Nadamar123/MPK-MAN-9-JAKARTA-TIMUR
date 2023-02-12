@@ -47,67 +47,29 @@ body{
   .nav > #nav-check {
     display: none;
   }
-.text{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  .hiyah{
+    /*margin-left: 570px;*/
+    margin-top: 100px;
     text-align: center;
-    margin-top: 90px;
-}
-.btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
-    font-size: 15px;        
-    margin-top: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.btn-1{
-    text-decoration: none;
-    margin-left: 520px;
-    padding: 20px 120px;
-    font-size: 1.25rem;
-    background:#000;
-    color:#fff;
-    border-radius: 30px;
-}
-.btn-1:hover{
-    background-color: white;
-    color: #000;
   }
-  .btn-2{
-    text-decoration: none;
-    margin-left: 520px;
-    padding: 20px 119px;
-    font-size: 1.25rem;
-    background:#000;
-    color:#fff;
+  .cukv{
+    margin-left: 210px;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 900px;
+    height: 180px;
+    padding: 0 5px 10px 10px;
+    position: relative;
+    background: radial-gradient(
+        140% 140% at 0% 0%,
+        rgba(255,255,255,0.4)0%,
+        rgba(255,255,255,0)100%
+    );
+    border-top: 1px solid #eceded70;
+    border-left: 1px solid #eceded70;
     border-radius: 30px;
-  }
-  .btn-2:hover{
-    background-color: white;
-    color: #000;
-  }
-  .btn-3{
-    text-decoration: none;
-    margin-left: 520px;
-    padding: 20px 115px;
-    font-size: 1.25rem;
-    background:#000;
-    color:#fff;
-    border-radius: 30px;
-}
-.btn-3:hover{
-  background-color: white;
-  color: #000;
-}
-.btn-4{
-    text-decoration: none;
-    margin-left: 520px;
-    padding: 20px 110px;
-    font-size: 1.25rem;
-    background:#000;
-    color:#fff;
-    border-radius: 30px;
-  }
-.btn-4:hover{
-    background-color: white;
-    color: #000;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
 }
 .btn-5{
     text-decoration: none;    
@@ -119,11 +81,11 @@ body{
     color:#fff;
     border-radius: 30px;
   }
-.btn-5:hover{
+  .btn-5:hover{
     background-color: white;
     color: #000;
-}
-.footer{
+  }
+  .footer{
     /*background-color: #343f3f70;*/
     background-color: black;
     width: 100%;
@@ -248,14 +210,17 @@ body{
     background-color:#f16198
   }
   @media (max-width: 1024px) {
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 350px;
+    .hiyah{
+        margin-top: 200px;
+    }
+    .cukv{
+        margin-left: 54px;
     }
     .btn-5{
-        margin-left: 387px;
+        margin-left: 360px;
     }
     .site-footer{
-        margin-top: 80px;
+        margin-top: 60px;
     }
   }
   @media (max-width:991px)
@@ -271,7 +236,7 @@ body{
     display:block;
     margin-right:0;
     font-weight:600
-    }    
+    }
     .site-footer .copyright-text,.site-footer .social-icons
     {
       text-align:center
@@ -322,99 +287,114 @@ body{
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
-    .text{
-        margin-top: 170px;
-    }
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 175px;
+    .cukv{
+        width: 620px;
+        margin-left: 16px;
+        height: 220px;
     }
     .btn-5{
-        margin-left: 213px;
+        margin-left: 200px;
     }
     .site-footer{
-        margin-top: 176px;
-        padding-bottom: 5px;
+        margin-top: 200px;
     }
   }
   @media screen and (max-width:428px){
     .nav-header>.nav-title{
       display: none;
     }
-    .text{
+    .hiyah{
         margin-top: 140px;
     }
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 46px;
+    .cukv{
+        width: 380px;
+        height: 350px;
+        margin-left: 7.5px;
     }
     .btn-5{
-        margin-left: 80px;
+        margin-left: 75px;
     }
     .site-footer{
-        margin-top: 53px;
-        padding-bottom: 5px;
+        margin-top: 20px;
     }
-  }
-  @media screen and (max-width:414px){
-    .text{
-        margin-top: 120px;
+}
+@media screen and (max-width:414px){
+    .hiyah{
+        margin-top: 130px;
     }
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 46px;
+    .cukv{
+        width: 360px;
+        height: 350px;
+        margin-left: 10px;
     }
     .btn-5{
-        margin-left: 80px;
+        margin-left: 70px;
     }
     .site-footer{
-        margin-top: 53px;
-        padding-bottom: 5px;
+        margin-top: 20px;
     }
   }
   @media screen and (max-width:412px){
-    .text{
-        margin-top: 80px;
+    .hiyah{
+        margin-top: 130px;
     }
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 33px;
+    .cukv{
+        width: 360px;
+        height: 350px;
+        margin-left: 9px;
     }
     .btn-5{
-        margin-left: 67px;
+        margin-left: 70px;
     }
     .site-footer{
-        margin-top: 53px;
-        padding-bottom: 5px;
+        margin-top: 25px;
     }
   }
   @media screen and (max-width:393px){
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 26px;
+    .hiyah{
+        margin-top: 130px;
+    }
+    .cukv{
+        width: 340px;
+        height: 360px;
+        margin-left: 9px;
     }
     .btn-5{
-        margin-left: 59px;
+        margin-left: 57px;
+    }
+    .site-footer{
+        margin-top: 25px;
     }
   }
   @media screen and (max-width:375px){
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 37px;
+    .hiyah{
+        margin-top: 100px;
     }
-    .btn-1{
-        padding: 15px 100px;
-    }
-    .btn-2{
-        padding: 15px 100px;
-    }
-    .btn-3{
-        padding: 15px 94px;
-    }
-    .btn-4{
-        padding: 15px 90px;
+    .cukv{
+        width: 330px;
+        height: 360px;
+        margin-left: 6px;
     }
     .btn-5{
-        padding: 15px 90px;
-        margin-left: 74px;
+        margin-left: 52px;
+    }
+    .site-footer{
+        margin-top: 25px;
     }
   }
   @media screen and (max-width:360px){
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 30px;
+    .hiyah{
+        margin-top: 100px;
+    }
+    .cukv{
+        width: 315px;
+        height: 360px;
+        margin-left: 6px;
+    }
+    .btn-5{
+        margin-left: 45px;
+    }
+    .site-footer{
+        margin-top: 25px;
     }
   }

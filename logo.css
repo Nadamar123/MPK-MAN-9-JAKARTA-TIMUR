@@ -47,68 +47,94 @@ body{
   .nav > #nav-check {
     display: none;
   }
-.text{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  .hiyah{
+    margin-left: 570px;
+    margin-top: 150px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+  body{
+      background-color: #af4444;
+      margin: 0px;
+  }
+  
+  .nav {
+      font-family: Arial, Helvetica, sans-serif;
+      height: 55px;
+      width: 100%;
+      background-color: #4d4d4d;
+      position: relative;
+    }
+    .nav > .nav-header {
+      display: inline;
+    }
+    .nav > .nav-header > .nav-title {
+      margin-top: -47px;
+      margin-left: 40px;
+      font-size: 22px;
+      color: #fff;
+      padding: 10px 10px 10px 10px;
+    }
+    .nav-img>img{
+      width: 40px;
+      height: 40px;
+      margin-top: 7px;
+      margin-left: 5px;
+    }  
+  .nav > .nav-btn {
+      display: none;
+    }
+    .nav > .nav-links {
+      float: right;
+      margin-top: -35px;
+      font-size: 18px;
+    }
+    .nav > .nav-links > a {
+      padding: 20px 10px 20px 10px;
+      text-decoration: none;
+      color: #efefef;
+    }
+    .nav > .nav-links > a:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > #nav-check {
+      display: none;
+    }
+  .makna{
+    margin-left: 390px;
+    margin-top: 40px;
+  }
+  .imglogo{
+    width: 500px;
+    height: 500px;
+    margin-left: 430px;
+    margin-top: 5px;
+  }
+  .lamb{
     text-align: center;
-    margin-top: 90px;
-}
-.btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
-    font-size: 15px;        
-    margin-top: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.btn-1{
-    text-decoration: none;
-    margin-left: 520px;
-    padding: 20px 120px;
-    font-size: 1.25rem;
-    background:#000;
-    color:#fff;
-    border-radius: 30px;
-}
-.btn-1:hover{
-    background-color: white;
-    color: #000;
   }
-  .btn-2{
-    text-decoration: none;
-    margin-left: 520px;
-    padding: 20px 119px;
-    font-size: 1.25rem;
-    background:#000;
-    color:#fff;
-    border-radius: 30px;
+  .ling{
+    margin-top: -30px;
   }
-  .btn-2:hover{
-    background-color: white;
-    color: #000;
+  .cukl{
+      margin-left: 380px;
+      font-size: medium;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      width: 580px;
+      height: 235px;
+      padding: 0 0 10px 20px;
+      position: relative;
+      background: radial-gradient(
+          140% 140% at 0% 0%,
+          rgba(255,255,255,0.4)0%,
+          rgba(255,255,255,0)100%
+      );
+      border-top: 1px solid #eceded70;
+      border-left: 1px solid #eceded70;
+      border-radius: 30px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 15px 25px rgba(0,0,0,0.3);
   }
-  .btn-3{
-    text-decoration: none;
-    margin-left: 520px;
-    padding: 20px 115px;
-    font-size: 1.25rem;
-    background:#000;
-    color:#fff;
-    border-radius: 30px;
-}
-.btn-3:hover{
-  background-color: white;
-  color: #000;
-}
-.btn-4{
-    text-decoration: none;
-    margin-left: 520px;
-    padding: 20px 110px;
-    font-size: 1.25rem;
-    background:#000;
-    color:#fff;
-    border-radius: 30px;
-  }
-.btn-4:hover{
-    background-color: white;
-    color: #000;
-}
 .btn-5{
     text-decoration: none;    
     margin-left: 555px;
@@ -119,11 +145,11 @@ body{
     color:#fff;
     border-radius: 30px;
   }
-.btn-5:hover{
+  .btn-5:hover{
     background-color: white;
     color: #000;
-}
-.footer{
+  }
+  .footer{
     /*background-color: #343f3f70;*/
     background-color: black;
     width: 100%;
@@ -248,14 +274,17 @@ body{
     background-color:#f16198
   }
   @media (max-width: 1024px) {
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 350px;
+    .makna{
+        margin-left: 200px;
+    }
+    .imglogo{
+        margin-left: 250px;
+    }
+    .cukl{
+        margin-left: 210px;
     }
     .btn-5{
-        margin-left: 387px;
-    }
-    .site-footer{
-        margin-top: 80px;
+        margin-left: 380px;
     }
   }
   @media (max-width:991px)
@@ -271,7 +300,7 @@ body{
     display:block;
     margin-right:0;
     font-weight:600
-    }    
+    }
     .site-footer .copyright-text,.site-footer .social-icons
     {
       text-align:center
@@ -322,99 +351,111 @@ body{
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
-    .text{
-        margin-top: 170px;
+    .makna{
+        margin-left: 50px;
     }
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 175px;
+    .imglogo{
+        margin-left: 85px;
+    }
+    .cukl{
+        margin-left: 30px;
     }
     .btn-5{
-        margin-left: 213px;
-    }
-    .site-footer{
-        margin-top: 176px;
-        padding-bottom: 5px;
+        margin-left: 200px;
     }
   }
   @media screen and (max-width:428px){
     .nav-header>.nav-title{
       display: none;
     }
-    .text{
-        margin-top: 140px;
+    .makna{
+        font-size: 20px;
+        margin-left: 25px;
     }
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 46px;
+    .imglogo{
+        height: 220px;
+        width: 220px;
+        margin-left: 100px;
+    }
+    .cukl{
+        width: 370px;
+        height: 330px;
+        margin-left: 10px;
     }
     .btn-5{
-        margin-left: 80px;
-    }
-    .site-footer{
-        margin-top: 53px;
-        padding-bottom: 5px;
+        margin-left: 75px;
     }
   }
   @media screen and (max-width:414px){
-    .text{
-        margin-top: 120px;
+    .makna{
+        margin-left: 20px;
     }
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 46px;
+    .imglogo{
+        margin-left: 90px;
     }
-    .btn-5{
-        margin-left: 80px;
-    }
-    .site-footer{
-        margin-top: 53px;
-        padding-bottom: 5px;
-    }
-  }
-  @media screen and (max-width:412px){
-    .text{
-        margin-top: 80px;
-    }
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 33px;
+    .cukl{
+        width: 350px;
+        height: 270px;
+        padding: 0 10px;
+        font-size: 14px;
+        margin-left: 13px;
     }
     .btn-5{
         margin-left: 67px;
     }
-    .site-footer{
-        margin-top: 53px;
-        padding-bottom: 5px;
+  }
+  @media screen and (max-width:412px){
+    .makna{
+      margin-left: 15px;
+    }
+    .cukl{
+      margin-left: 11px;
     }
   }
   @media screen and (max-width:393px){
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 26px;
-    }
-    .btn-5{
-        margin-left: 59px;
-    }
+   .makna{
+    margin-left: 7px;
+   }
+   .imglogo{
+    margin-left: 80px;
+   }
+   .cukl{
+    width: 340px;
+    margin-left: 7px;
+   }
+   .btn-5{
+    margin-left: 60px;
+    margin-top: 5px;
+   }
   }
   @media screen and (max-width:375px){
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 37px;
+    .makna{
+      font-size: 19px;
     }
-    .btn-1{
-        padding: 15px 100px;
+    .imglogo{
+      margin-left: 70px;
     }
-    .btn-2{
-        padding: 15px 100px;
-    }
-    .btn-3{
-        padding: 15px 94px;
-    }
-    .btn-4{
-        padding: 15px 90px;
+    .cukl{
+      width: 320px;
+      height: 300px;
     }
     .btn-5{
-        padding: 15px 90px;
-        margin-left: 74px;
+      margin-left: 50px;
     }
   }
   @media screen and (max-width:360px){
-    .btn-1,.btn-2,.btn-3,.btn-4{
-        margin-left: 30px;
+    .makna{
+      font-size: 18px;
+    }
+    .imglogo{
+      margin-left: 60px;
+    }
+    .cukl{
+      width: 305px;
+      height: 320px;
+      margin-left: 7px;
+    }
+    .btn-5{
+      margin-left: 44px;
     }
   }
