@@ -49,14 +49,15 @@ body{
   }
 .penk{
     margin-left: 290px;
-    margin-top: 0px;
+    margin-top: 20px;
   }
   .s1{
-    margin-left: 420px;
+    margin: auto;
+    /*margin-left: 420px;*/
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 500px;
-    height: 140px;
+    width: 400px;
+    height: 190px;
     padding: 5px 5px 10px 10px;
     position: relative;
     background: radial-gradient(
@@ -75,8 +76,8 @@ body{
     margin-top: 30px;
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 500px;
-    height: 160px;
+    width: 300px;
+    height: 170px;
     padding: 5px 5px 10px 10px;
     position: relative;
     background: radial-gradient(
@@ -91,12 +92,12 @@ body{
     box-shadow: 0 15px 25px rgba(0,0,0,0.3);
   }
   .s3{
-    margin-left: 760px;
-    margin-top: -175px;
+    margin-left: 520px;
+    margin-top: -185px;
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 500px;
-    height: 160px;
+    width: 300px;
+    height: 170px;
     padding: 5px 5px 10px 10px;
     position: relative;
     background: radial-gradient(
@@ -111,12 +112,12 @@ body{
     box-shadow: 0 15px 25px rgba(0,0,0,0.3);
   }
   .s4{
-    margin-left: 70px;
-    margin-top: 30px;
+    margin-left: 960px;
+    margin-top: -185px;
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 500px;
-    height: 160px;
+    width: 330px;
+    height: 170px;
     padding: 5px 5px 10px 10px;
     position: relative;
     background: radial-gradient(
@@ -131,12 +132,12 @@ body{
     box-shadow: 0 15px 25px rgba(0,0,0,0.3);
   }
   .s5{
-    margin-left: 760px;
-    margin-top: -174px;
+    margin-left: 280px;
+    margin-top: 30px;
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 500px;
-    height: 160px;
+    width: 340px;
+    height: 170px;
     padding: 5px 5px 10px 10px;
     position: relative;
     background: radial-gradient(
@@ -151,12 +152,12 @@ body{
     box-shadow: 0 15px 25px rgba(0,0,0,0.3);
   }
   .s6{
-    margin-left: 70px;
-    margin-top: 30px;
+    margin-left: 740px;
+    margin-top: -185px;
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 500px;
-    height: 160px;
+    width: 320px;
+    height: 170px;
     padding: 5px 5px 10px 10px;
     position: relative;
     background: radial-gradient(
@@ -171,12 +172,12 @@ body{
     box-shadow: 0 15px 25px rgba(0,0,0,0.3);
   }
   .s7{
-    margin-left: 760px;
-    margin-top: -174px;
+    margin-left: 500px;
+    margin-top: 30px;
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 500px;
-    height: 160px;
+    width: 360px;
+    height: 170px;
     padding: 5px 5px 10px 10px;
     position: relative;
     background: radial-gradient(
@@ -190,6 +191,20 @@ body{
     backdrop-filter: blur(10px);
     box-shadow: 0 15px 25px rgba(0,0,0,0.3);
   }
+  .btn-1{
+    text-decoration: none;
+    margin-left: 550px;
+    padding: 20px 120px;
+    font-size: 1.25rem;
+    background:#000;
+    color:#fff;
+    border-radius: 30px;
+}
+.btn-1:hover{
+    background-color: white;
+    color: #000;
+  }
+
   .footer{
     /*background-color: #343f3f70;*/
     background-color: black;
@@ -313,4 +328,372 @@ body{
   .social-icons a.instagram:hover
   {
     background-color:#f16198
+  }
+  @media (max-width: 1024px) {
+    .penk{
+      margin-left: 135px;
+      margin-top: 20px;
+    }
+    .s1{
+      margin-left: 285px;
+    }
+    .s2{
+      width: 350px;
+      height: 170px;
+    }
+    .s3{
+      margin-left: 540px;
+      width: 380px;
+    }
+    .s4{
+      width: 350px;
+      margin-top: 20px;
+      margin-left: 70px;
+    }
+    .s5{
+      margin-left: 540px;
+      margin-top: -185px;
+      width: 380px;
+    }
+    .s6{
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 70px;
+    }
+    .s7{
+      margin-left: 540px;
+      width: 380px;
+      margin-top: -185px;
+    }
+    .btn-1{
+      margin-left: 350px;
+    }
+  }
+  @media (max-width:991px)
+  {
+    .site-footer [class^=col-]
+    {
+      margin-bottom:30px
+    }
+  }
+  @media (max-width:767px)
+  {
+    .social-icons li.title{
+    display:block;
+    margin-right:0;
+    font-weight:600
+    }
+    .site-footer{
+      padding-bottom:0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons
+    {
+      text-align:center
+    }
+  }
+  @media (max-width:688px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: -25px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 30px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 90px;
+      left: 0px;
+      z-index: 1;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+    .penk{
+      font-size: 25px;
+      margin-left: 52.5px;
+    }
+    .s1{
+      margin-left: 135px;
+    }
+    .s2{
+      margin-left: 145px;
+      width: 380px;
+    }
+    .s3{
+      margin-top: 30px;
+      margin-left: 145px;
+    }
+    .s4{
+      margin-left: 145px;
+      width: 380px;
+      height: 130px;
+    }
+    .s5{
+      margin-top: 30px;
+      height: 170px;
+      margin-left: 145px;
+    }
+    .s6{
+      margin-left: 145px;
+      width: 380px;
+      height: 170px;
+    }
+    .s7{
+      margin-top: 30px;
+      margin-left: 145px;
+      height: 170px;
+    }
+    .btn-1{
+      margin-left: 195px;
+    }
+    .site-footer{
+      padding: 20px 0 20px;
+    }
+  }
+  @media screen and (max-width:428px){
+    .nav-header>.nav-title{
+      display: none;
+    }
+    .penk{
+      font-size: 32px;
+      margin-left: 12px;
+    }
+    .s1, h2{
+      font-size: 20px;
+    }
+    .s1, p{
+      font-size: 15px;
+    }
+    .s1{
+      margin-left: 12px;
+      width: 370px;
+      height: 170px;
+    }
+    .s2, h2{
+      font-size: 20px;
+    }
+    .s2, p{
+      font-size: 15px;
+    }
+    .s2{
+      margin-left: 12px;
+      width: 370px;
+      height: 150px;
+    }
+    .s3, h2{
+      font-size: 20px;
+    }
+    .s3, p{
+      font-size: 15px;
+    }
+    .s3{
+      margin-left: 12px;
+      width: 370px;
+      height: 150px;
+    }
+    .s4, h2{
+      font-size: 20px;
+    }
+    .s4, p{
+      font-size: 15px;
+    }
+    .s4{
+      margin-left: 12px;
+      width: 370px;
+      height: 110px;
+    }
+    .s5, h2{
+      font-size: 20px;
+    }
+    .s5, p{
+      font-size: 15px;
+    }
+    .s5{
+      margin-left: 12px;
+      width: 370px;
+      height: 160px;
+    }
+    .s6, h2{
+      font-size: 20px;
+    }
+    .s6, p{
+      font-size: 15px;
+    }
+    .s6{
+      margin-left: 12px;
+      width: 370px;
+      height: 160px;
+    }
+    .s7, h2{
+      font-size: 20px;
+    }
+    .s7, p{
+      font-size: 15px;
+    }
+    .s7{
+      margin-left: 12px;
+      width: 370px;
+      height: 160px;
+    }
+    .btn-1{
+      margin-left: 65px;
+    }
+  }
+  @media screen and (max-width:414px){
+   .penk{
+    font-size: 30px;
+   }
+   .s1{
+    height: 180px;
+    width: 330px;
+    margin-left: 25px;
+   }
+   .s2{
+    height: 160px;
+    width: 330px;
+    margin-left: 25px;
+   }
+   .s3{
+    height: 160px;
+    width: 330px;
+    margin-left: 25px;
+   }
+   .s4{
+    height: 120px;
+    width: 330px;
+    margin-left: 25px;
+   }
+   .s5{
+    height: 160px;
+    width: 330px;
+    margin-left: 25px;
+   }
+   .s6{
+    height: 160px;
+    width: 330px;
+    margin-left: 25px;
+   }
+   .s7{
+    height: 160px;
+    width: 330px;
+    margin-left: 25px;
+   }
+   .btn-1{
+    margin-left: 60px;
+   }
+  }
+  @media screen and (max-width:412px){
+    .s1{
+      margin-left: 23px;
+    }
+    .s2{
+      margin-left: 23px;
+    }
+    .s3{
+      margin-left: 23px;
+    }
+    .s4{
+      margin-left: 23px;
+    }
+    .s5{
+      margin-left: 23px;
+    }
+    .s6{
+      margin-left: 23px;
+    }
+    .s7{
+      margin-left: 23px;
+    }
+  }
+  @media screen and (max-width:393px){
+    .penk{
+      margin-left: 7px;
+    }
+    .s1{
+      margin-left: 15px;
+    }
+    .s2{
+      margin-left: 15px;
+    }
+    .s3{
+      margin-left: 15px;
+    }
+    .s4{
+      margin-left: 15px;
+    }
+    .s5{
+      margin-left: 15px;
+    }
+    .s6{
+      margin-left: 15px;
+    }
+    .s7{
+      margin-left: 15px;
+    }
+    .btn-1{
+      margin-left: 50px;
+    }
+  }
+  @media screen and (max-width:375px){
+    .penk{
+      font-size: 29px;
+      margin-left: 4px;
+    }
+    .s1, .s2,.s3,.s4,.s5,.s6,.s7{
+      margin-left: 10px;
+      width: 320px;
+    }
+    .btn-1{
+      margin-left: 40px;
+    }
+  }
+  @media screen and (max-width:360px){
+    .penk{
+      font-size: 27px;
+      margin-left: 7px;
+    }
+    .s1, .s2,.s3,.s4,.s5,.s6,.s7{
+      margin-left: 9px;
+      width: 310px;
+    }
+    .s5{
+      height: 150px;
+    }
+    .s6{
+      height: 160px;
+    }
+    .s7{
+      height: 170px;
+    }
+    .btn-1{
+      margin-left: 30px;
+    }
   }

@@ -162,7 +162,7 @@ body{
 .btn-4{
     text-decoration: none;
     margin-left: 530px;
-    padding: 20px 50px;
+    padding: 20px 63px 20px 63px;
     font-size: 1.25rem;
     background:#000;
     color:#fff;
@@ -457,7 +457,7 @@ body{
     }
     .btn-4{
       margin-left: 210px;
-      padding: 20px 40px;
+      padding: 20px 53px;
     }
     .site-footer{
       padding: 20px 0 30px 0;
@@ -515,7 +515,7 @@ body{
       margin-top: 5px;
     }
     .btn-4{
-      padding: 15px 40px 15px 40px;
+      padding: 15px 53px 15px 53px;
       margin-left: 85px;        
       margin-top: 5px;
     }
@@ -531,13 +531,13 @@ body{
       margin-top: 5px;
     }
     .logo_mansel{
-      height: 130px;
+      height: 120px;
       width: 210px;
-      margin-left: 10px;
+      margin-left: 15px;
     }
     .logo_mpk{
-      height: 130px;
-      width: 130px;
+      height: 120px;
+      width: 120px;
       margin-left: -10px;
     }
     .cukv{
@@ -574,7 +574,7 @@ body{
       margin-left: 90px;
     }
     .btn-4{
-      padding: 20px 50px 20px 50px;
+      padding: 20px 58px 20px 58px;
       margin-left: 90px;        
     }
   }
@@ -594,7 +594,7 @@ body{
         font-size: 25px;
     }
     .logo_mansel{
-        margin-left: -10px;
+        margin-left: -3px;
         height: 120px;
         width: 210px;
     }
@@ -636,7 +636,7 @@ body{
         margin-left: 70px;
     }
     .btn-4{
-        padding: 20px 50px 20px 50px;
+        padding: 20px 58px 20px 58px;
         margin-left: 70px;        
     }
 }
@@ -687,7 +687,7 @@ body{
     margin-left: 60px;
 }
 .btn-4{
-    padding: 20px 50px 20px 50px;
+    padding: 20px 58px 20px 58px;
     margin-left: 60px;        
 }
 }
@@ -697,13 +697,13 @@ body{
     margin-top: 5px;
   }
   .logo_mansel{
-    margin-left: -3px;
-    width: 190px;
-    height: 110px;
+    margin-left: 15px;
+    width: 170px;
+    height: 100px;
   }
   .logo_mpk{
-    width: 85px;
-    height: 85px;
+    width: 100px;
+    height: 100px;
   }
   .cukv{
     margin-left: 17px;
